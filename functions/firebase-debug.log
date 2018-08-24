@@ -1,0 +1,31 @@
+[debug] [2018-08-13T13:55:37.629Z] ----------------------------------------------------------------------
+[debug] [2018-08-13T13:55:37.631Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc_12\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase functions:shell
+[debug] [2018-08-13T13:55:37.632Z] CLI Version:   4.0.3
+[debug] [2018-08-13T13:55:37.632Z] Platform:      win32
+[debug] [2018-08-13T13:55:37.632Z] Node Version:  v9.5.0
+[debug] [2018-08-13T13:55:37.632Z] Time:          Mon Aug 13 2018 16:55:37 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-13T13:55:37.632Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-13T13:55:37.643Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-13T13:55:37.644Z] > authorizing via signed-in user
+[debug] [2018-08-13T13:55:37.646Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/thesaus-40afe  
+  
+ Mon Aug 13 2018 16:55:37 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-13T13:55:38.452Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-13T13:55:38.453Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/thesaus-40afe/tokens  
+  
+ Mon Aug 13 2018 16:55:38 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-13T13:55:39.164Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-08-13T13:55:40.025Z] Fetching environment
+[debug] [2018-08-13T13:55:40.027Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/thesaus-40afe  
+  
+ Mon Aug 13 2018 16:55:40 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-13T13:55:40.963Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-13T13:55:40.964Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/917123005895:getServerAppConfig  
+  
+ Mon Aug 13 2018 16:55:40 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-13T13:55:41.534Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-13T13:55:41.535Z] Starting @google-cloud/functions-emulator
+[debug] [2018-08-13T13:55:43.607Z] Parsing function triggers
+[info] +  functions: addMessage
